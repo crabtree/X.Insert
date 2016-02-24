@@ -9,5 +9,5 @@ Some classes that helps interacting with InsERT GT applications set (quite commo
 Projekt `X.Insert.DTO` zawiera zbiór klas reprezentujących obiekty biznesowe takie jak 
 Kontrahent (`ContractorDTO`), Adres (`AddressDTO`), Towar (`ProductDTO`) itp.  
 
-Serwisy zawarte w projekcie `X.Insert.Reader` pozwalają wykonywać na bazie systemu InsERT GT operacje tylko 
+Serwisy zawarte w projekcie `X.Insert.Reader` pozwalają wykonywać na bazie danych systemu InsERT GT operacje tylko 
 do odczytu. W żaden sposób nie modyfikują zawartości bazy danych. Nie wymagają do działania licencji Sfery. 
