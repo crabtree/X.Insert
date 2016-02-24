@@ -58,7 +58,8 @@ namespace X.Insert.Reader.Services
         protected IEnumerable<SimpleReference> GetColumnsMapping()
         {
             var db = GetDatabaseConnection();
-            return new List<SimpleReference> {
+            return new List<SimpleReference>
+            {
                 db.adr__Ewid.adr_Id.As("Id"),
                 db.adr__Ewid.adr_IdObiektu.As("ObjectId"),
                 db.adr__Ewid.adr_TypAdresu.As("Type"),
