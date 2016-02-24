@@ -61,6 +61,8 @@
     <Compile Include="Services\ContractorReadService.cs" />
     <Compile Include="Services\Interfaces\IAddressReadService.cs" />
     <Compile Include="Services\Interfaces\IContractorReadService.cs" />
+    <Compile Include="Services\Interfaces\IProductReadService.cs" />
+    <Compile Include="Services\ProductReadService.cs" />
     <Compile Include="Services\ReadService.cs" />
   </ItemGroup>
   <ItemGroup />

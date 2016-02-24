@@ -4,7 +4,7 @@ Some classes that helps interacting with InsERT GT applications set (quite commo
 
 ---
 
-`X.Insert` to zbiór klas ułatwiających interakcje z pakietem InsERT GT
+`X.Insert` to zbiór klas ułatwiających interakcje z pakietem InsERT GT.
 
 Projekt `X.Insert.DTO` zawiera zbiór klas reprezentujących obiekty biznesowe takie jak 
 Kontrahent (`ContractorDTO`), Adres (`AddressDTO`), Towar (`ProductDTO`) itp.  

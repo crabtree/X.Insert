@@ -39,6 +39,7 @@
   <ItemGroup>
     <Compile Include="DTOs\AddressDTO.cs" />
     <Compile Include="DTOs\ContractorDTO.cs" />
+    <Compile Include="DTOs\ProductDTO.cs" />
     <Compile Include="Enums\AddressTypeEnum.cs" />
     <Compile Include="Enums\ContractorDirectionEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

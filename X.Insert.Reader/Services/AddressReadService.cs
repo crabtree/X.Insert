@@ -43,7 +43,7 @@ namespace X.Insert.Reader.Services
         public List<AddressDTO> GetAddressForObjectByTypes(int objectId, IEnumerable<AddressTypeEnum> addressTypes)
         {
             var db = GetDatabaseConnection();
-            return db.adr__Ewid.Find(db.adr__Ewid.adr_IdObiektu == objectId && db.adr__Ewid.adr_TypAdresu == addressTypes)
+            return db.adr__Ewid.FindAll(db.adr__Ewid.adr_IdObiektu == objectId && db.adr__Ewid.adr_TypAdresu == addressTypes)
                 .Select(GetColumnsMapping());
         }
 
