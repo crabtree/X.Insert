@@ -41,6 +41,7 @@
     <Compile Include="DTOs\ContractorDTO.cs" />
     <Compile Include="DTOs\ProductDTO.cs" />
     <Compile Include="DTOs\WarehouseDTO.cs" />
+    <Compile Include="DTOs\WarehouseProductAmountDTO.cs" />
     <Compile Include="Enums\AddressTypeEnum.cs" />
     <Compile Include="Enums\ContractorDirectionEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

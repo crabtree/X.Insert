@@ -62,9 +62,11 @@
     <Compile Include="Services\Interfaces\IAddressReadService.cs" />
     <Compile Include="Services\Interfaces\IContractorReadService.cs" />
     <Compile Include="Services\Interfaces\IProductReadService.cs" />
+    <Compile Include="Services\Interfaces\IWarehouseProductAmountReadService.cs" />
     <Compile Include="Services\Interfaces\IWarehouseReadService.cs" />
     <Compile Include="Services\ProductReadService.cs" />
     <Compile Include="Services\ReadService.cs" />
+    <Compile Include="Services\WarehouseProductAmountReadService.cs" />
     <Compile Include="Services\WarehouseReadService.cs" />
   </ItemGroup>
   <ItemGroup />
